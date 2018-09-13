@@ -1,4 +1,3 @@
-package threesolid;
 /**
  *  The Robot class only needs interface IWorkable. A robot does not eat, it only works.
  *  This satisfies the Single Responsibility Principle. Also satisfies the Interface Segregation
@@ -6,20 +5,19 @@ package threesolid;
  *  unnecessary methods that don't apply to them.
  */
 
-
 /**
- * @author Callisto
- *
+ * @Author Christopher Jew
+ * @Author Callisto
  */
-public class Robot implements IWorkable {
+package threesolid;
 
-	/* (non-Javadoc)
-	 * @see IWorkable#work()
-	 */
+public class Robot extends BaseWorker implements IReboot {
 	@Override
 	public void work() {
-		// TODO Auto-generated method stub
-
+		System.out.format("Robot working...\n");
 	}
-
+    @Override
+    public void reboot() {
+    	System.out.format("Robot is rebooting...\n");
+    }
 }
