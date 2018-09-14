@@ -37,7 +37,7 @@ public class ThreeSolidMain {
 	         main_except.printStackTrace();
 	      }
 
-	      /*System.out.println("\n\nBaseWorker: \n");
+	      System.out.println("\n\nBaseWorker: \n");
 	      BaseWorker baseWorker = new BaseWorker();
 	      baseWorker.work();
 	      
@@ -67,7 +67,7 @@ public class ThreeSolidMain {
 	      Robot robot = new Robot();
 	      robot.work();
 	      robot.reboot();
-*/
+
 	      
 	      // not 100% sure I was supposed to add the plain manager tests, but couldn't hurt -Wes Nicol
 	      System.out.println("\n\nManager: ");
