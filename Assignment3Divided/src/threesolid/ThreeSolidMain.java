@@ -37,7 +37,7 @@ public class ThreeSolidMain {
 	         main_except.printStackTrace();
 	      }
 
-	      System.out.println("\n\nBaseWorker: \n");
+	      /*System.out.println("\n\nBaseWorker: \n");
 	      BaseWorker baseWorker = new BaseWorker();
 	      baseWorker.work();
 	      
@@ -46,7 +46,7 @@ public class ThreeSolidMain {
 	      SuperWorker superWorker = new SuperWorker();
 	      superWorker.work();
 	      superWorker.eat();
-	      superWorker.sick();
+	      //superWorker.sick();
 	      
 	      
 	      System.out.println("\n\nWorker: \n");
@@ -67,12 +67,15 @@ public class ThreeSolidMain {
 	      Robot robot = new Robot();
 	      robot.work();
 	      robot.reboot();
-	      
+*/
 	      
 	      // not 100% sure I was supposed to add the plain manager tests, but couldn't hurt -Wes Nicol
-	      System.out.println("\n\nManager: \n");
-	      Worker workerForManager = new IWorkable(); // Added to allow the manager classes to have a IWorkable object to interact with -Wes Nicol
-	      Manager manager = new Manager();
+	      System.out.println("\n\nManager: ");
+	      Worker workerForManager = new Worker(); // Added to allow the manager classes to have a IWorkable object to interact with -Wes Nicol
+		  										  /* I changed object workForManager to be instantiated with Worker
+												   class b/c Worker already implements IEatable and IWorkable. -Allen Van
+												  */
+		  Manager manager = new Manager();
 	      manager.setWorker(workerForManager);
 	      manager.manage();
 	      
@@ -80,14 +83,14 @@ public class ThreeSolidMain {
 	      ProjectManager projectManager = new ProjectManager();
 	      projectManager.setWorker(workerForManager);;
 	      projectManager.manage();
-	      projectManager.schedulework();
+	      projectManager.scheduleWork();
 	      
 	      
 	      System.out.println("\n\nProductManager: \n");
 	      ProductManager productManager = new ProductManager();
 	      productManager.setWorker(workerForManager);;
 	      productManager.manage();
-	      productManager.schedulework();
+	      productManager.defineProduct();
 	      
 	      
 	      
