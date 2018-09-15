@@ -10,23 +10,24 @@ package threesolid;
  * @author Callisto
  *
  */
-public class Worker implements IEatable, IWorkable {
-
+public class Worker extends BaseWorker implements IEat, ISick {
 	/* (non-Javadoc)
 	 * @see IWorkable#work()
 	 */
-	@Override
 	public void work() {
-		// TODO Auto-generated method stub
+		System.out.println("Worker is working!");
 
+	}
+
+	public void sick(){
+		System.out.println("Worker is taking a sick day.");
 	}
 
 	/* (non-Javadoc)
 	 * @see IEatable#eat()
 	 */
-	@Override
 	public void eat() {
-		// TODO Auto-generated method stub
+		System.out.println("Worker is taking a long lunch break.");
 
 	}
 

@@ -10,15 +10,18 @@ package threesolid;
  * @author Callisto
  *
  */
-public class SuperWorker implements IWorkable, IEatable {
+public class SuperWorker extends BaseWorker implements IEat, ISick {
 
 	/* (non-Javadoc)
 	 * @see IEatable#eat()
 	 */
-	@Override
 	public void eat() {
-		// TODO Auto-generated method stub
+		System.out.println("Superworker is taking a lunch break.");
 
+	}
+
+	public void sick(){
+		System.out.println("Superworker somehow got sick!");
 	}
 
 	/* (non-Javadoc)
@@ -26,7 +29,7 @@ public class SuperWorker implements IWorkable, IEatable {
 	 */
 	@Override
 	public void work() {
-		// TODO Auto-generated method stub
+		System.out.println("I overrode my work method, because im super.");
 
 	}
 
