@@ -37,33 +37,33 @@ public class ThreeSolidMain {
 	         main_except.printStackTrace();
 	      }
 
-	      System.out.println("\n\nBaseWorker: \n");
+	      System.out.println("\n\nBaseWorker:");
 	      BaseWorker baseWorker = new BaseWorker();
 	      baseWorker.work();
 	      
 	      
-	      System.out.println("\n\nSuperWorker: \n");
+	      System.out.println("\n\nSuperWorker:");
 	      SuperWorker superWorker = new SuperWorker();
 	      superWorker.work();
 	      superWorker.eat();
 	      //superWorker.sick();
 	      
 	      
-	      System.out.println("\n\nWorker: \n");
+	      System.out.println("\n\nWorker:");
 	      Worker worker = new Worker();
 	      worker.work();
 	      worker.eat();
 	      worker.sick();
 	      
 	      
-	      System.out.println("\n\nTempWorker: \n");
+	      System.out.println("\n\nTempWorker:");
 	      TempWorker tempWorker = new TempWorker();
 	      tempWorker.work();
 	      tempWorker.eat();
 	      tempWorker.sick();
 	      
 	      
-	      System.out.println("\n\nRobot: \n");
+	      System.out.println("\n\nRobot:");
 	      Robot robot = new Robot();
 	      robot.work();
 	      robot.reboot();
@@ -79,16 +79,16 @@ public class ThreeSolidMain {
 	      manager.setWorker(workerForManager);
 	      manager.manage();
 	      
-	      System.out.println("\n\nProjectManager: \n");
+	      System.out.println("\n\nProjectManager:");
 	      ProjectManager projectManager = new ProjectManager();
-	      projectManager.setWorker(workerForManager);;
+	      projectManager.setWorker(workerForManager);
 	      projectManager.manage();
 	      projectManager.scheduleWork();
 	      
 	      
-	      System.out.println("\n\nProductManager: \n");
+	      System.out.println("\n\nProductManager:");
 	      ProductManager productManager = new ProductManager();
-	      productManager.setWorker(workerForManager);;
+	      productManager.setWorker(workerForManager);
 	      productManager.manage();
 	      productManager.defineProduct();
 	      
