@@ -71,25 +71,25 @@ public class ThreeSolidMain {
 	      
 	      // not 100% sure I was supposed to add the plain manager tests, but couldn't hurt -Wes Nicol
 	      System.out.println("\n\nManager: ");
-	      Worker workerForManager = new Worker(); // Added to allow the manager classes to have a IWorkable object to interact with -Wes Nicol
-		  										  /* I changed object workForManager to be instantiated with Worker
-												   class b/c Worker already implements IEatable and IWorkable. -Allen Van
-												  */
+
 		  Manager manager = new Manager();
-	      manager.setWorker(workerForManager);
-	      manager.manage();
+	      manager.work();
+	      manager.eat();
+	      manager.sick();
 	      
 	      System.out.println("\n\nProjectManager:");
 	      ProjectManager projectManager = new ProjectManager();
-	      projectManager.setWorker(workerForManager);
-	      projectManager.manage();
+	      projectManager.work();
+	      projectManager.eat();
+	      projectManager.sick();
 	      projectManager.scheduleWork();
 	      
 	      
 	      System.out.println("\n\nProductManager:");
 	      ProductManager productManager = new ProductManager();
-	      productManager.setWorker(workerForManager);
-	      productManager.manage();
+	      productManager.work();
+	      productManager.eat();
+	      productManager.sick();
 	      productManager.defineProduct();
 	      
 	      

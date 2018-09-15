@@ -1,16 +1,18 @@
 package threesolid;
 
-// Author: Allen Van
-// ProductManager is a subclass of Manager and implements the IProduct interface.
+/** @author Allen Van
+ *
+ *  ProductManager is a subclass of Manager and implements the IProduct interface.
+ */
+
 
 public class ProductManager extends Manager implements IProduct {
+    @Override
+    public void work() { System.out.println("Product Manager is Working on new products!"); }
 
-    public void manage() {  // Utilize the same method manage() parent class Manager.
-        worker.work();
-    }
+    public void eat() { System.out.println("Product Manager is on lunch break!"); }
 
-    public void defineProduct() {  // Define method from IProduct specifically for ProductManager.
-        System.out.println("Need to present the latest product to management...");
+    public void sick() { System.out.println("Product Manager is sick today!"); }
 
-    }
+    public void defineProduct() { System.out.println("Need to present the latest product to management. Showtime!"); }
 }

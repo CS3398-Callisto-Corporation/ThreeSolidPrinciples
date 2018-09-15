@@ -9,16 +9,14 @@ package threesolid;
  * @author Callisto
  *
  */
-public class Manager {
-	IWorkable worker;
+public class Manager extends BaseWorker implements IEat, ISick{
 	
-	public void setWorker(IWorkable w) {
-		worker = w;
-		
-	}
-	
-	public void manage() {
-		worker.work();
-	}
+	@Override
+	public void work() { System.out.println("Manager is doing work!"); }
+
+	public void eat() { System.out.println("Manager is taking a lunch break!"); }
+
+	public void sick() { System.out.println("Manager is sick today!"); }
+
 
 }
