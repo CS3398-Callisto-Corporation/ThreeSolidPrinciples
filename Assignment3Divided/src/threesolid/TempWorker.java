@@ -11,12 +11,12 @@ public class TempWorker extends BaseWorker implements IEat, ISick  {
 		System.out.format("Working temporarily...\n");
 	}
 	
-	@Overide
+	@Override
 	public void eat() {
 		System.out.format("Temporary worker eating...\n");
 	}
 	
-	@Overide
+	@Override
 	public void sick() {
 		System.out.format("Temporary worker is sick...\n");
 	}
