@@ -8,7 +8,7 @@ package threesolid;
 
 public class ProductManager extends Manager implements IProduct {
     @Override
-    public void work() { System.out.println("Product Manager is Working on new products!"); }
+    public String work() { return ("Product Manager is Working on new products!"); }
 
     public void eat() { System.out.println("Product Manager is on lunch break!"); }
 

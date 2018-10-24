@@ -9,8 +9,8 @@ package threesolid;
  */
 public class BaseWorker {
 
-	public void work() {
-		System.out.println("Default work method running...");
+	public String work() {
+            return ("Default work method running...");
 		
 	}
 }

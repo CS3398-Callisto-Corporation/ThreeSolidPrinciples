@@ -1,35 +1,23 @@
 package threesolid;
 
+
+import static javafx.beans.binding.Bindings.and;
 import static org.junit.jupiter.api.Assertions.*;
-
-
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.TestInstance;
-import org.junit.jupiter.api.extension.ExtendWith;
-
 
 
 public class TestWorker {
-
-   private  Worker w = new Worker();
-	
-   @Test
-   public void testWorkerWithNoName()
-   {
-      //assertEquals(w.getName(),"");
-      assertEquals(w.work(),"Worker is working!");
-   }
-
-   @Test
-   /*public void testWorkerWithName()
-   {
-      w.setName("Corvus Glaive");
-      assertEquals(w.getName(),"Corvus Glaive");
-      assertEquals(w.work(),"Corvus Glaive is working very hard!");
-   }*/
-
+    
+    
+ private Worker w = new Worker();
+ 
+ 
+ @Test
+ @DisplayName("Work Method Test")
+ public void testWorkMethod()
+ {
+ assertEquals(w.work(),"Worker is working!", "Mismatch between test text and method text");
+ }
+ 
 }
