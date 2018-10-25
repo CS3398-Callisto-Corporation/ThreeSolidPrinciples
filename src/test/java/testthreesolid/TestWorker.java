@@ -27,3 +27,12 @@ public class TestWorker {
 	 
  }
 }
+
+
+@Test
+@DisplayName("Designed to Padd")
+public void testToPass() {
+	 assertTrue(w.isPositive(1));
+	 
+}
+}
