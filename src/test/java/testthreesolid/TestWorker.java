@@ -30,7 +30,7 @@ public class TestWorker {
 
 
 @Test
-@DisplayName("Designed to Padd")
+@DisplayName("Designed to Pass")
 public void testToPass() {
 	 assertTrue(w.isPositive(1));
 	 
