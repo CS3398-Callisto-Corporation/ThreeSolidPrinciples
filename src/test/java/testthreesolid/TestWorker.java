@@ -14,10 +14,19 @@ public class TestWorker {
  
  
  @Test
- @DisplayName("Work Method Test")
- public void testWorkMethod()
+ @DisplayName("Work Method Test Pass")
+ public void newtest_zas_WorkerPass()
  {
  assertEquals(w.work(),"Worker is working!", "Mismatch between test text and method text");
  }
+
+ @Test
+ @DisplayName("Work Method Test Fail")
+ public void newtest_zas_WorkerFail()
+ {
+ assertEquals(w.work(),"Worker isnt working!", "Mismatch between test text and method text");
+ }
  
 }
+
+
