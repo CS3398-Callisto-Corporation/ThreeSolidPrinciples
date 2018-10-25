@@ -26,7 +26,7 @@ public class TestWorker {
 	 assertTrue(w.isPositive(-1));
 	 
  }
-}
+
 
 
 @Test
@@ -34,5 +34,5 @@ public class TestWorker {
 public void testToPass() {
 	 assertTrue(w.isPositive(1));
 	 
-}
+	}
 }
