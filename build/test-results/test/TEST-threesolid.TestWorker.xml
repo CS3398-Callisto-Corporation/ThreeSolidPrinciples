@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-26T00:29:47" hostname="DESKTOP-FIKKLDH" time="0.057">
+<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-26T00:34:34" hostname="DESKTOP-FIKKLDH" time="0.066">
   <properties/>
-  <testcase name="testWorkMethod()" classname="threesolid.TestWorker" time="0.038"/>
-  <testcase name="passOverOneHundredMethond()" classname="threesolid.TestWorker" time="0.002"/>
-  <testcase name="failOverOneHundredMethond()" classname="threesolid.TestWorker" time="0.008">
+  <testcase name="testWorkMethod()" classname="threesolid.TestWorker" time="0.034"/>
+  <testcase name="passOverOneHundredMethond()" classname="threesolid.TestWorker" time="0.003"/>
+  <testcase name="failOverOneHundredMethond()" classname="threesolid.TestWorker" time="0.01">
     <failure message="org.opentest4j.AssertionFailedError: Fail! ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Fail! ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
 	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:42)

@@ -22,7 +22,7 @@ public class TestWorker {
  
  
  @Test
- @DisplayName("Over 100 Method Test Pass")
+ @DisplayName("passOverOneHundredMethond")
  public void passOverOneHundredMethond()
  {
      assertTrue(w.overOneHundred(1000000), "Fail!");
@@ -30,7 +30,7 @@ public class TestWorker {
  
  
  @Test
- @DisplayName("Over 100 Method Test Fail")
+ @DisplayName("failOverOneHundredMethond")
  public void failOverOneHundredMethond()
  {
      assertTrue(w.overOneHundred(10), "Fail!");
