@@ -19,5 +19,24 @@ public class TestWorker {
  {
  assertEquals(w.work(),"Worker is working!", "Mismatch between test text and method text");
  }
- 
+
+ @Test
+ @DisplayName("strings are the same!")
+ public void newtestAVWorkerPass()
+ {
+  String a = "I love dogs!";
+  String b = "I love dogs!";
+
+  assertTrue(a.equals(b), "Both Love dogs!");
+ }
+/*
+ @Test
+ @DisplayName("strings are not the same!")
+ public void newtestAVWorkerFail()
+ {
+  String a = "I love dogs!";
+  String b = "I love cats!";
+  assertTrue(a.equals(b), "One loves dogs and other loves cats!");
+ }
+ */
 }
