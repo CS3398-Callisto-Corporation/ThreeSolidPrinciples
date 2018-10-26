@@ -28,8 +28,8 @@ public class SuperWorker extends BaseWorker implements IEat, ISick {
 	 * @see IWorkable#work()
 	 */
 	@Override
-	public void work() {
-		System.out.println("I overrode my work method, because im super.");
+	public String work() {
+		return("I overrode my work method, because im super.");
 
 	}
 

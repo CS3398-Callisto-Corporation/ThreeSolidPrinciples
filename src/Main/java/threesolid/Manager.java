@@ -12,7 +12,7 @@ package threesolid;
 public class Manager extends BaseWorker implements IEat, ISick{
 	
 	@Override
-	public void work() { System.out.println("Manager is doing work!"); }
+	public String work() { return("Manager is doing work!"); }
 
 	public void eat() { System.out.println("Manager is taking a lunch break!"); }
 

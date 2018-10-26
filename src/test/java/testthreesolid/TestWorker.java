@@ -19,11 +19,4 @@ public class TestWorker {
  {
  assertEquals(w.work(),"Worker is working!", "Mismatch between test text and method text");
  }
-
- @Test
- @DisplayName("Designed to Fail")
- public void testToFail() {
-	 assertTrue(w.isPositive(-1));
-	 
- }
 }

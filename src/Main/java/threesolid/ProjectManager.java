@@ -7,7 +7,7 @@ package threesolid;
 public class ProjectManager extends Manager implements ISchedule {
 
     @Override
-    public void work() { System.out.println("Project Manager is doing work!"); }
+    public String work() { return("Project Manager is doing work!"); }
 
     public void eat() { System.out.println("Project Manager is on lunch break!"); }
 
