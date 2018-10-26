@@ -21,17 +21,17 @@ public class TestWorker {
  }
 
  @Test
- @DisplayName("Designed to Fail")
- public void testToFail() {
-	 assertTrue(w.isPositive(-1));
+ @DisplayName("newtestWNWorkerFail()")
+ public void newtestWNWorkerFail() {
+	 assertTrue(w.isPositive(-1),"Test Failed!!");
 	 
  }
 
 
 
 @Test
-@DisplayName("Designed to Pass")
-public void testToPass() {
+@DisplayName("newtestWNWorkerPass()")
+public void newtestWNWorkerPass() {
 	 assertTrue(w.isPositive(1));
 	 
 	}

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-25T23:52:53" hostname="Wes-Levono" time="0.018">
+<testsuite name="threesolid.TestWorker" tests="3" skipped="0" failures="1" errors="0" timestamp="2018-10-26T00:00:08" hostname="Wes-Levono" time="0.036">
   <properties/>
-  <testcase name="testWorkMethod()" classname="threesolid.TestWorker" time="0.01"/>
-  <testcase name="testToFail()" classname="threesolid.TestWorker" time="0.004">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;true&gt; but was: &lt;false&gt;
+  <testcase name="testWorkMethod()" classname="threesolid.TestWorker" time="0.019"/>
+  <testcase name="newtestWNWorkerFail()" classname="threesolid.TestWorker" time="0.007">
+    <failure message="org.opentest4j.AssertionFailedError: Test Failed!! ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Test Failed!! ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:36)
 	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:42)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:37)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:115)
-	at threesolid.TestWorker.testToFail(TestWorker.java:26)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:146)
+	at threesolid.TestWorker.newtestWNWorkerFail(TestWorker.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,7 +89,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:844)
 </failure>
   </testcase>
-  <testcase name="testToPass()" classname="threesolid.TestWorker" time="0.0"/>
+  <testcase name="newtestWNWorkerPass()" classname="threesolid.TestWorker" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
