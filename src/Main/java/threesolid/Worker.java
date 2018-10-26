@@ -30,5 +30,11 @@ public class Worker extends BaseWorker implements IEat, ISick {
 		System.out.println("Worker is taking a long lunch break.");
 
 	}
+        
+        
+        public boolean overOneHundred(int x)
+        {
+            return(x > 100);
+        }
 
 }

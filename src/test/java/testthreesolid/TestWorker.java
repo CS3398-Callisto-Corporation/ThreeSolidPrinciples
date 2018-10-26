@@ -19,4 +19,23 @@ public class TestWorker {
  {
  assertEquals(w.work(),"Worker is working!", "Mismatch between test text and method text");
  }
+ 
+ 
+ @Test
+ @DisplayName("Over 100 Method Test Pass")
+ public void passOverOneHundredMethond()
+ {
+     assertTrue(w.overOneHundred(1000000), "Fail!");
+ }
+ 
+ 
+ @Test
+ @DisplayName("Over 100 Method Test Fail")
+ public void failOverOneHundredMethond()
+ {
+     assertTrue(w.overOneHundred(10), "Fail!");
+ }
+ 
 }
+
+
