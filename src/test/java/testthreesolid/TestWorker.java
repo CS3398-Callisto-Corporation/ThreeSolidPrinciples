@@ -38,5 +38,5 @@ public class TestWorker {
   String b = "I love cats!";
   assertTrue(a.equals(b), "One loves dogs and other loves cats!");
  }
- 
-}
+
+ }
