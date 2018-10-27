@@ -1,4 +1,4 @@
 language: java
 script: chmod +x gradle
-script: chmod +x gradlew.bat.
+script: chmod +x gradlew.bat
 script: gradle build 
