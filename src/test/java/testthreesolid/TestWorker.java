@@ -30,7 +30,20 @@ public class TestWorker {
  
  
  @Test
- @DisplayName("newtest_AL_WorkerFail")
+ @DisplayName("newtest_AL_WorkerFail") @Test
+ @DisplayName("Designed to Fail")
+ public void newtest_AL_WorkerPass() {
+	 assertTrue(w.itsOver9000(11092));
+	 
+ }
+ 
+ 
+ @Test
+ @DisplayName("Designed to Fail")
+ public void newtest_AL_WorkerFail() {
+	 assertTrue(w.itsOver9000(543));
+	 
+ }
  public void failOverOneHundredMethond()
  {
      assertTrue(w.overOneHundred(10), "Fail!");
