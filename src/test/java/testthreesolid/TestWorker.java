@@ -21,7 +21,7 @@ public class TestWorker {
  }
 
  @Test
- @DisplayName("strings are the same!")
+ @DisplayName("Strings are the same!")
  public void newtestAVWorkerPass()
  {
   String a = "I love dogs!";

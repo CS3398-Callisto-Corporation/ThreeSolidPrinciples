@@ -4,46 +4,18 @@
     <list default="true" id="562459a9-4ccc-4b29-8577-d24ea35f5e0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/threesolid/TestWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/threesolid/TestWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/threesolid/TestWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/threesolid/TestWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/BaseWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/IEat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/IEatable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/IProduct.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/IReboot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/ISchedule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/ISick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/IWorkable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/IWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/ProductManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/ProjectManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/Robot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/SuperWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/TempWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/ThreeSolidMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/threesolid/Worker.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/ThreeSolidMain.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/ThreeSolidMain.tar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/distributions/ThreeSolidMain.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/ThreeSolidMain.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/jar/ThreeSolidMain.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/dl-three-solid-main-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/dl-three-solid-main-0.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/threesolid.TestWorker.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/threesolid.TestWorker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/ThreeSolidMain" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/ThreeSolidMain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/ThreeSolidMain.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/ThreeSolidMain.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/threesolid.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/threesolid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-threesolid.TestWorker.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-threesolid.TestWorker.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testthreesolid/TestWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testthreesolid/TestWorker.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,12 +44,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="528" />
+          <entry key="java" value="529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="528" />
+          <entry key="JAVA" value="529" />
         </counts>
       </usages-collector>
     </session>
@@ -87,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testthreesolid/TestWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+            <state relative-caret-position="300">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -124,32 +96,6 @@
             <path>
               <item name="ThreeSolidPrinciples" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThreeSolidPrinciples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThreeSolidPrinciples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThreeSolidPrinciples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThreeSolidPrinciples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThreeSolidPrinciples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThreeSolidPrinciples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThreeSolidPrinciples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThreeSolidPrinciples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThreeSolidPrinciples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testthreesolid" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -224,8 +170,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/testthreesolid/TestWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        <state relative-caret-position="300">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
