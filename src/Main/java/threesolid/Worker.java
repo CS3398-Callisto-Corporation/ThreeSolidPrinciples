@@ -32,9 +32,10 @@ public class Worker extends BaseWorker implements IEat, ISick {
 	}
         
         
-        public boolean overOneHundred(int x)
-        {
-            return(x > 100);
-        }
+       	//returns true if input is over 9000
+	public boolean itsOver9000(int num) {
+		return (num > 9000);
+		
+	}
 
 }
