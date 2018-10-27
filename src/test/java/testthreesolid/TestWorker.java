@@ -29,7 +29,7 @@ public class TestWorker {
 
   assertTrue(a.equals(b), "Both Love dogs!");
  }
-/*
+
  @Test
  @DisplayName("strings are not the same!")
  public void newtestAVWorkerFail()
@@ -38,5 +38,5 @@ public class TestWorker {
   String b = "I love cats!";
   assertTrue(a.equals(b), "One loves dogs and other loves cats!");
  }
- */
+ 
 }
