@@ -21,13 +21,6 @@ public class TestWorker {
  }
  
  
- @Test
- @DisplayName("newtest_AL_WorkerPass")
- public void passOverOneHundredMethond()
- {
-     assertTrue(w.overOneHundred(1000000), "Fail!");
- }
- 
  
  @Test
  @DisplayName("newtest_AL_WorkerFail") @Test
@@ -43,10 +36,6 @@ public class TestWorker {
  public void newtest_AL_WorkerFail() {
 	 assertTrue(w.itsOver9000(543));
 	 
- }
- public void failOverOneHundredMethond()
- {
-     assertTrue(w.overOneHundred(10), "Fail!");
  }
  
 }
