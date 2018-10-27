@@ -22,14 +22,14 @@ public class TestWorker {
 
  @Test
  @DisplayName("New Test Method PASS")
- public void testIsLazyMethodPASS()
+ public void newtestC_JWorkerPass()
  {
  assertTrue(w.isLazy(10), "isLazy() method not working as intended.");
  }
 
  @Test
  @DisplayName("New Test Method FAIL")
- public void testFinishedJobsMethodFAIL()
+ public void newtestC_JWorkerFails()
  {
  assertFalse(w.finishedJobs("Clean Toilet", "Take Trash Out", "Mop Floor"), "Worker did the jobs he was supposed to.");
  }
